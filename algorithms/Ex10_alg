@@ -1,0 +1,51 @@
+#aproveitamento de um aluno
+MEDIAS
+A,B,C,D,E,F
+EX:Primeira nota: 10
+segunda nota: 9
+media: 9.5
+aproveitamento: a
+
+Apenas usar Se
+.............
+
+algortimo "AproveitamentoAluno"
+var
+    N1, N2, M : Real
+    NOTA: Caractere
+inicio
+      Escreva("Primeira Nota")
+      Leia (N1)
+      Escreva("Segunda Nota")
+      Leia (N2)
+      M <- (N1 + N2) / 2
+      //Escreval ("A media do aluno foi" M:5:2)
+      Se ( M >= 9 ) entao
+          Escreval ("A media do aluno foi" M:5:2)
+          Escreval("Aproveitamento: A ")
+      senao
+          Se ( M > 8 ) e (M < 9) entao
+              Escreval ("A media do aluno foi" M:5:2)
+              Escreval("Aproveitamento: B ")
+          senao
+              Se ( M > 7 ) e (M < 8) entao
+                  Escreval ("A media do aluno foi" M:5:2)
+                  Escreval("Aproveitamento: C")
+              senao
+                  Se (M > 6) e (M < 7) entao
+                      Escreval ("A media do aluno foi" M:5:2)
+                      Escreval("Aproveitamento: D ")
+                  senao
+                        Se (M > 5) e (M < 6) entao
+                            Escreval ("A media do aluno foi" M:5:2)
+                            Escreval("Aproveitamento: E")
+                        senao
+                              Se (M < 5)
+                                Escreval ("A media do aluno foi abaixo de 5" M:5:2)
+                                Escreval("Aproveitamento: F")
+                            FimSe
+                       FimSe
+                  FimSe
+            FimSe
+      FimSe
+Fimalgoritmo

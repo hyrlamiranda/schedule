@@ -1,0 +1,45 @@
+Partida de futebol
+quantidade de gols feito por cada time
+quantos gols do Barcelona : 3
+quantos gols de Bruxelas: 3
+diferenca: 0
+status: empate
+
+or barcelona fez 1
+e bruxelas 6
+diferenca de 5
+status goleada
+
+.Posso usar escolha e outro com Se
+
+algoritmo "PartidaFutebol"
+var
+    G1, G2, D : Inteiro
+    time1, time2: caractere
+inicio
+      escreval ("----------------------------")
+      Escreva ("Escolha um time 1 ")
+      Leia (time1)
+      Escreva ("Escolha um time 2")
+      Leia (time2)
+      Escreval("Quantos Gols time 1: ")
+      Leia(G1)
+      Escreval("Quantos Gols time 2: ")
+      Leia(G2)
+      D <- G1 - G2
+        Se (D = 0) entao
+                 Escreval ("DIFERENÇA: ", D)
+                 Escreval ("STATUS: EMPATE")
+            senao
+                 se (D <= 3) entao
+                     Escreval ("DIFERENÇA: ", D)
+                     Escreval ("STATUS: PARTIDA NORMAL")
+                 senao
+                      se (D >= 4) entao
+                         Escreval ("DIFERENÇA: ", D)
+                         Escreval ("STATUS: GOLEADA")
+                      fimse
+                 fimse
+          fimse
+          escreval ("------------------------")
+fimalgoritmo﻿
