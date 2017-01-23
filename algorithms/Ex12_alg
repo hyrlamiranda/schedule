@@ -1,7 +1,0 @@
-#Estrutura de repeticao
-
-mao <- 0
-Enquanto( mao <- 5) faca
-    troca
-    mao <- mao + 1
-FimEnquanto    
