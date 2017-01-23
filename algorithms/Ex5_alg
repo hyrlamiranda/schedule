@@ -1,0 +1,25 @@
+# Pegar emprestimo no Banco
+20% de juros e vai poder parcelar
+#quanto valor que precisa ex: se pega 1000 juros vai para 1200
+
+algoritmo
+var
+  Juros, Emprestimo , Parcelas, Total : Real
+Inicio
+      Escreva("Qual valor do Emprestimo?")
+      Leia(Emprestimo)
+      Escreva("Quantas parcelas?")
+      Leia(Parcelas)
+      Juros <- (Emprestimo * 20)/100
+      Total <- (Emprestimo + Juros)/ Parcelas
+      Escreva("Voce vai pagar", parcelas, "Parcelas de R$", Total)
+fimdealgoritmo
+
+      Qual o valor do emprestimo?
+      RECEBE 1000
+      COM 20% DE AUMENTO DARIA 1200.00
+      Quantas parcelas?
+      10
+
+      Se eu pego 1200,00 e divido em 10 parcelas cada parcela sera 120,00
+      Vou pagar 10 parcelas de 120 reais
