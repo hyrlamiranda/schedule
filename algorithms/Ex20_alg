@@ -1,0 +1,14 @@
+#Fazer conversao de moedas 4x
+algoritmo "conversorMoedas"
+var
+    Cont : Inteiro
+    R, D : Real
+inicio
+      Cont <- 1
+      Enquanto (Cont <= 4) faca
+              Escreva("Qual o valor em R$?")
+              Leia(R)
+              D <- R/3.20
+              Escreval("O valor convertido e US$", D:5:2)
+              Cont <- Cont + 1
+fimalgoritmo

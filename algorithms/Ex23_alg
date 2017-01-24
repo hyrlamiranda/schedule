@@ -1,0 +1,28 @@
+#Melhor aluno da Turma
+
+algoritmo "melhorAluno"
+var
+    Nome, MelhorAluno : Caractere
+    Nota, MaiorNota: Real
+    Qtde, Num: Inteiro
+inicio
+    Escreval ("----------------------------")
+    Escreval ("       GITHIGHSCHOOL      ")
+    Escreval ("----------------------------")
+    Escreva ("Quantos alunos a turma tem? ")
+    Leia(Num)
+    Qtde <- 1
+    Enquanto (Qtde <= Num) faca
+        Escreval("Aluno" , Qtde)
+        Escreval("Nome do Aluno")
+        Leia(Nome)
+        Escreval("Nota de", Nome)
+        Leia(Nota)
+        Se (MaiorNota < Nota) entao
+            MelhorAluno <- Nome
+            MaiorNota <- Nota
+        FimSe
+        Qtde <- qtde + 1
+    FimEnquanto
+    Escreval("O melhor aproveitamento foi do aluno", MelhorAluno, "com a nota", MaiorNota)
+fimalgoritmo

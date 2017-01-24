@@ -1,0 +1,27 @@
+#Contagem Inteligente
+#Contem seguintes variaveis inicio, fim
+
+algortimo "contagemInteligente"
+var
+    Inicio, Fim: Inteiro
+inicio
+    contador <- 0
+    Escreva ("Qual o numero Inicial?")
+    Leia(Inicio)
+    Escreva("Qual o numero final?")
+    Leia(Fim)
+    Se (Inicio < Fim) entao
+      Enquanto (Inicio <= Fim) faca
+          EscrevaL(Inicio, "...")
+          Inicio <- Inicio + 1
+      FimEnquanto
+    senao
+      Se (Inicio > Fim) entao
+        Enquanto (Inicio >= Fim) faca
+            EscrevaL(Inicio, "...")
+            Inicio <- Inicio - 1
+        FimEnquanto
+      FimSe
+    FimSe
+    Escreval("Contagem Inteligente efetuada")
+Fimalgoritmo

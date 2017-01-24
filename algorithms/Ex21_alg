@@ -1,0 +1,18 @@
+#Fazer conversao de moedas 4x
+#adcional: Perguntar ao usuario quantas conversoes serao realizadas
+
+algoritmo "conversorMoedas"
+var
+    Cont, Qtde : Inteiro
+    R, D : Real
+inicio
+      Cont <- 1
+      Escreva("Quantas vezes voce quer converter?")
+      Leia(Qtde)
+      Enquanto (Cont <= Qtde) faca
+              Escreva("Qual o valor em R$?")
+              Leia(R)
+              D <- R/3.20
+              Escreval("O valor convertido e US$", D:5:2)
+              Cont <- Cont + 1
+fimalgoritmo
