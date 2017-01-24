@@ -1,5 +1,5 @@
 #Ler 10 numeros e somar-los
-#Adcional:Mostrar qal foi o maior numero digitado
+#Adcional:Mostrar qual foi o maior numero digitado
 
 algoritmo "somadorNumerico"
 var
@@ -7,7 +7,7 @@ var
 inicio
     cont <- 1
     S <- 0
-    Enquanto (cont <= 5) faca
+    Enquanto (cont <= 10) faca
         Escreva("Digite o" ,  cont, "o. valor:")
         Leia(N)
         S <- S + N

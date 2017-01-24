@@ -1,4 +1,4 @@
-algoritmo "conteAte0"
+algoritmo "PulandoDois"
 var
     contador : Inteiro
 inicio
