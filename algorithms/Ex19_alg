@@ -1,21 +1,20 @@
-#Ler 10 numeros e somar-los
-#Adcional:Mostrar qual foi o maior numero digitado
+#Menor valor digitado
 
 algoritmo "somadorNumerico"
 var
-  cont, N, S, maior: Inteiro
+  cont, N, S, menor: Inteiro
 inicio
     cont <- 1
     S <- 0
     Enquanto (cont <= 5) faca
         Escreva("Digite o" ,  cont, "o. valor:")
         Leia(N)
-        Se (N > maior) entao
-            maior <- N
+        Se (N < menor) entao
+            menor <- N
         FimSe
         S <- S + N
         cont <- cont + 1
     FimEnquanto
     Escreval("A soma de todos os valores foi", s)
-    Escreval("O maior valor digitado foi", maior)
+    Escreval("O menor valor digitado foi", menor)
 fimalgoritmo
