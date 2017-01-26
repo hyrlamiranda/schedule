@@ -1,4 +1,5 @@
-#Calcular F para C
+#calcular F para C
+
 algoritmo "Creza03"
 var
   F, C : Real

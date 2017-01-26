@@ -1,4 +1,4 @@
-#Descobrir idade
+# Descobrir idade
 algoritmo "Creuza01"
 var
   ano_atual, ano_nasc, idade : Inteiro

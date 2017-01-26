@@ -1,4 +1,4 @@
-#Ler 10 numeros e somar-los
+#ler 10 numeros e somar-los
 #Adcional:Mostrar qual foi o maior numero digitado
 
 algoritmo "somadorNumerico"

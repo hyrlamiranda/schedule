@@ -1,4 +1,5 @@
-#Converter reais para dolares
+#converter reais para dolares
+
 algoritmo "Creza02"
 var
   reais, dolares: Real

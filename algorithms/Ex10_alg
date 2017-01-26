@@ -1,13 +1,11 @@
 #aproveitamento de um aluno
-MEDIAS
-A,B,C,D,E,F
-EX:Primeira nota: 10
-segunda nota: 9
-media: 9.5
-aproveitamento: a
-
-Apenas usar Se
-.............
+#MEDIAS
+#A,B,C,D,E,F
+#EX:Primeira nota: 10
+#segunda nota: 9
+#media: 9.5
+#aproveitamento: a
+#Apenas usar Se
 
 algortimo "AproveitamentoAluno"
 var

@@ -3,4 +3,3 @@ var
   N: Inteiro
 inicio
       Escreva("Digite um numero")
-      

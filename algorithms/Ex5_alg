@@ -1,6 +1,7 @@
 # Pegar emprestimo no Banco
-20% de juros e vai poder parcelar
+#20% de juros e vai poder parcelar
 #quanto valor que precisa ex: se pega 1000 juros vai para 1200
+
 
 algoritmo
 var

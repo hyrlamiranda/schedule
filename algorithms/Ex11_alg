@@ -1,16 +1,13 @@
-Partida de futebol
-quantidade de gols feito por cada time
-quantos gols do Barcelona : 3
-quantos gols de Bruxelas: 3
-diferenca: 0
-status: empate
-
-or barcelona fez 1
-e bruxelas 6
-diferenca de 5
-status goleada
-
-.Posso usar escolha e outro com Se
+#Partida de futebol
+#exemplo: quantidade de gols feito por cada time
+#quantos gols do Barcelona : 3
+#quantos gols de Bruxelas: 3
+#diferenca: 0
+#status: empate
+#or barcelona fez 1
+#e bruxelas 6
+#diferenca de 5
+#status goleada
 
 algoritmo "PartidaFutebol"
 var

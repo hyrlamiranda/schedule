@@ -1,9 +1,11 @@
 #Repeticao
+//exemplo
 #Para c <- 1 Ate 10 passo 1 faca
     Escreval(c)
 FimPara
 
-#algoritmo "contador1a10"
+
+algoritmo "contador1a10"
 var
    C: Inteiro
 inicio
