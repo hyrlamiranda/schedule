@@ -1,0 +1,25 @@
+#sequencia de fribonacci
+#fazer 15 valores
+#curiosidade se dividir 377 por 233 fica mais proximo de FI
+primeira aula explica proporcao aurea, numero da belza, numero de ouro, se colocar os valores de fribonacci forma de quadrados vai ter uma espiral perfeita.
+#0+ 1 = 1
+1+ 1 = 2
+2 + 1 = 3
+3 + 2 = 5
+.........
+
+algoritmo "sequenciaDeFribonacci"
+var
+    S1 , S2, Seq: Inteiro
+#fn = fn - 1 + fn - 2
+inicio
+      S1 <- 0
+      S2 <- 1
+      Escreva(S1)
+      Para Seq de q ate 13 faca
+          S1 <- S1 + S2
+          Escreva(S1)
+          S2 <- S2 + S1
+            Escreval(S2)
+      FimPara
+fimalgoritmo

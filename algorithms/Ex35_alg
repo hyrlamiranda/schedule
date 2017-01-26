@@ -1,0 +1,13 @@
+#combinacoes
+#1,1 1,2 1,3 -- 2,1 2,2 2,3
+
+algortimo "combinacoes"
+var
+    C1, C2 : Inteiro
+inicio
+    Para C1 := 1 ate 3 faca
+      Para c2 := 1 ate 3 faca
+          Escreval(C1,C2)
+      FimPara
+    FimPara
+fimalgoritmo

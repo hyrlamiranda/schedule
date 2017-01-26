@@ -1,0 +1,23 @@
+algoritmo "QuantosEntre0e10Impares"
+var
+    c, v, tot010, simp: Inteiro
+inicio
+    tot010 <- 0
+    simp <- 0
+    Para c <- 1 ate 6 faca
+        Escreva("Digite um valor:")
+        Leia(V)
+        Se(v >= 0) E (v <= 10) entao
+          tot010 <- tot010 + 1
+          Se (v%2=1) entao
+              simp <- simp + v
+          FimSe
+        FimSe
+    FimPara
+    EscrevaL("Ao todo foram", tot010 , "entre 0 e 10")
+    EscrevaL("Nesse intervalo, a soma de impares foi", simp)
+fimalgoritmo
+
+#numeros digitados: 2,7,21,5,8 e 1
+#valores impares: 3 = 13 Entre 0 e 10 = 5 numeros
+#somar numero  21 sem acrescentar uma linha de codigo.
