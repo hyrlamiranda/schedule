@@ -1,0 +1,18 @@
+#parouimpar com procedimento
+
+algortimo "parouImpar"
+var
+  N:Inteiro
+Procedimento ParouImpar(V:Inteiro)
+inicio
+  Se(V%2 = 0)entao
+      Escreval("O numero", V , "e par")
+  senao
+      Escreval("O numero", V , "e impar")
+  FimSe
+FimProcedimento
+inicio
+    Escreva("Digite um numero")
+    Leia(N)
+    parouImpar(N)
+fimalgoritmo

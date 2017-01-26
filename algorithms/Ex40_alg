@@ -1,0 +1,22 @@
+#passagem de paramentro
+#passando passagem por valor
+algoritmo "SomaParametrosReferencia"
+var
+    x, y : Inteiro
+Procedimento Soma(a,b : inteiro)
+inicio
+    a <- a + 1
+    b <- b + 2
+    Escreval("valor de a =", a)
+    Escreval("valor de b =", b)
+    Escreval("soma a + b =", a + b)
+FimProcedimento
+inicio
+    x <- 4
+    y <- 8
+    Soma (x, y)
+    Escreval("valor de x = ", x)
+    Escreval("valor de y =", y)
+fimalgoritmo
+
+#por referencia
