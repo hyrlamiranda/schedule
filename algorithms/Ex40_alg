@@ -1,5 +1,6 @@
-#passagem de paramentro
+#passagem de parametro
 #passando passagem por valor
+
 algoritmo "SomaParametrosReferencia"
 var
     x, y : Inteiro
