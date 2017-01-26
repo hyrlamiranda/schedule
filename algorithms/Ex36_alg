@@ -7,16 +7,17 @@ primeira aula explica proporcao aurea, numero da belza, numero de ouro, se coloc
 
 algoritmo "sequenciaDeFibonacci"
 var
-    S1 , S2, Seq: Inteiro
+    S1 , S2, S3, Seq: Inteiro
 #fn = fn - 1 + fn - 2
 inicio
       S1 <- 0
-      S2 <- 1
       Escreva(S1)
-      Para Seq de q ate 13 faca
-          S1 <- S1 + S2
-          Escreva(S1)
-          S2 <- S2 + S1
-            Escreval(S2)
+      S2 <- 1
+      Escreval(S2)
+      Para Seq := 1 ate 13 faca
+          S3 := S1 + S2
+          Escreva(S3)
+            S1 := S2
+            S2 := S3
       FimPara
 fimalgoritmo
