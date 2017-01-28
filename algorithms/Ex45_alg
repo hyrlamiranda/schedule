@@ -1,0 +1,51 @@
+#pessoas com que o nome comece com C
+
+algoritmo "SocomC"
+var
+    nome: caractere
+    soC: vetor[1..10]de caractere
+    c, tot: Inteiro
+inicio
+    tot <- 0
+    Para c <- 1 ate 10 faca
+        Escreva("Digite seu nome:")
+        Leia(nome)
+        Se(copia(maiusc(nome),1,1) = "C") entao
+          tot <- tot + 1
+          soC[tot] <- nome
+        FimSe
+    FimPara
+
+    LimpaTela
+    Escreva("LISTAGEM FINAL")
+    Para c <- 1 ate tot faca
+        Escreval(soC[c])
+    FimPara
+fimalgoritmo
+
+#ordernacao de vetores
+
+#algortimo "OrdenaVetor"
+var
+    vet: vetor[1..4] de Inteiro
+    i, j, aux: Inteiro
+inicio
+    Para i <- 1 ate 4 faca
+        Escreva("Digite um valor")
+        Leia(vet[i])
+    FimPara
+
+    Para i <- 1 ate 3 faca
+         Para j <- i + 1 ate 4 faca
+            Se(vet[i]) > vet [j] entao
+              aux <- vet[i]
+              vet[i] <- vet[j]
+              vet[j] <- aux
+            FimSe
+        FimPara
+    FimPara
+
+    Para i <- 1 ate 4 faca
+        Escreva("[", v[i], "]")
+    FimPara
+Fimalgoritmo

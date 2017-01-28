@@ -1,0 +1,36 @@
+#Diferenca de procedimentos e funcoes
+#Procedimentos nao pode retornar um valor
+#durante uma funcao voce tem um valor de retorno
+
+
+#Exemplo das diferencas
+#Procedimento
+
+Procedimento Soma(A,B:Inteiro)
+var
+    S: Inteiro
+inicio
+    S <- A + B
+    Escreval("A soma vale", S)
+FimProcedimento
+inicio
+    N1 <- 5
+    N2 <- 4
+    Soma(N1,N2)
+FimAlgoritmo
+
+#Funcao
+
+Funcao Soma(A, B: Inteiro) : Inteiro
+var
+    S:Inteiro
+inicio
+    S <- A + B
+    Retorne S
+FimFuncao
+inicio
+    N1 <- 5
+    N2 <- 4
+    RES <- Soma(N1,N2)
+    EscrevaL("A soma e", RES)
+FimAlgoritmo

@@ -1,0 +1,89 @@
+#Usando Funcoes
+#Somar dois valores
+
+algoritmo "SomaFuncao"
+var
+    v1, v2, s: Inteiro
+
+Funcao Soma(x, y: Inteiro):Inteiro
+inicio
+    Retorne x + y
+FimFuncao
+
+inicio
+    Escreva("Digite o primeiro valor:")
+    Leia(v1)
+    Escreva("Digite o segundo valor:")
+    Leia(v2)
+    s <- Soma(v1,v2)
+    Escreval("A soma entre", v1 "e", v2, "e igual a", s)
+fimalgoritmo
+
+#valores par ou impar
+
+algoritmo "ParouImpar"
+var
+    N: Inteiro
+    R: Caractere
+
+Funcao ParOuImpar(V:Inteiro): Caractere
+inicio
+    Se (V%2 = 0)entao
+      Retorne "Par"
+    senao
+      Retorne "Impar"
+    FimSe
+FimFuncao
+inicio
+    Escreva("Digite um numero")
+    Leia(N)
+    R <- ParOuImpar(N)
+    Escreva("O numero", N, "e um valor", R)
+Fimalgoritmo
+
+#Fatorial
+
+algoritmo "FatorialFuncao"
+var
+    N, F : Inteiro
+Funcao Fatorial(V: Inteiro): Inteiro
+inicio
+    R <- 1
+    Para C <- 1 ate V faca
+      R <- R * c
+    FimPara
+    Retorne R
+FimFuncao
+
+inicio
+    Escreva("Digite um numero:")
+    Leia(N)
+    F <- Fatorial(N)
+    Escreval("O valor de " N "! e igual a ", F)
+fimalgoritmo
+
+
+#Fibonacci em funcao
+
+algoritmo "FibonacciProcedimento"
+var
+  i, t1, t2, t3: Inteiro
+Funcao ProximoFibonacci(var n1, n2: Inteiro)
+var
+    n3:Inteiro
+inicio
+    n3 <- n1 + n2
+    n1 <- n2
+    n2 <- n3
+    Retorne n3
+FimFuncao
+inicio
+    t1 <- 0
+    Escreval(t1)
+    t2 <- 1
+    Escreval(t2)
+    Para i <- 3 ate 10 faca
+        t3 <- ProximoFibonacci(t1, t2)
+        Escreval(t3)
+    FimPara
+fimalgoritmo
