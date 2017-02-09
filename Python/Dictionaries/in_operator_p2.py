@@ -10,3 +10,5 @@ terms['integer'] = 'A whole number'
 
 print(terms['variable'])
 print(terms['integer'])
+
+
