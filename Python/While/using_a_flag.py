@@ -1,4 +1,4 @@
-###### 20/ 02 / 2017
+### 20/ 02 / 2017
 ### Hyrla Miranda
 ### Using a flag to stop a program
 
