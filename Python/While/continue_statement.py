@@ -7,5 +7,6 @@ while current_number < 10:
 	current_number += 1
 	if current_number % 2 == 0:
 		continue
-
+# Printing current number
 print(current_number)
+
